@@ -1,0 +1,78 @@
+div#header {
+    background-color: rgb(205, 100, 244);
+    font-size: larger;
+    font-family: serif;
+
+}
+
+a#footerlink {
+    font-size: 25px;
+    color: rgb(249, 249, 249);
+}
+
+hr {
+    background-color: purple;
+}
+
+div#footer {
+    text-align: center;
+    background-color: rgb(133, 32, 170);
+    width: 1200px;
+    height: 200px;
+    color: white;
+}
+
+div.sidemenu {
+    flex: 20%;
+    padding: 0px;
+    height: 500px;
+    background-color: rgb(193, 144, 238);
+    text-align: center;
+
+}
+
+fieldset {
+    border-color: black;
+}
+
+div.content {
+    flex: 80%;
+    padding: 20px;
+    background-color: rgb(234, 230, 238);
+}
+
+div#side {
+    display: flex;
+}
+
+body {
+    background-color: rgba(229, 121, 250, 0.772);
+}
+
+img.img {
+    width: 100px;
+    height: 100px;
+}
+
+#time {
+    text-align: center;
+}
+
+div.firstcolumn {
+    flex: 2;
+    padding: 5px;
+}
+
+div.firstrow {
+    display: flex;
+
+}
+div.firstcol {
+    flex: 2;
+    padding: 5px;
+}
+
+div.secondrow {
+    display: flex;
+
+}
