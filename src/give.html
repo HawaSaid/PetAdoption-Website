@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title> Question 8 of Assignment 1(home) </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheetq8.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="homepage.html">
+            <img src="kisspng-dogcat-relationship-dogcat-relationship-pupp-5b3bc53da032c9.1942065615306437736562.png"
+                alt="cat and dog logo" width="100" height="100">
+        </a>
+        <h1 style="text-align: center;"> MiawMatch Pet adoption service</h1>
+        <p id="time"></p>
+        <script src="runningprojectjavascript.js"></script>
+    </div>
+    <div id="side">
+        <div class="sidemenu">
+            <a href="homepage.html"> HOME </a>
+            <br><br><br>
+            <hr>
+            <a href="pets.html">BROWSE AVAILABLE PETS</a>
+            <br><br><br>
+            <hr>
+            <a href="find.html"> FIND CAT/DOG</a>
+            <br><br><br>
+            <hr>
+            <a href="dogcare.html">DOG CARE</a>
+            <br><br><br>
+            <hr>
+            <a href="catcare.html">CAT CARE</a>
+            <br><br><br>
+            <hr>
+            <a href="give.html">HAVE A PET TO GIVE AWAY</a>
+            <br><br><br>
+            <hr>
+            <a href="contact.html">CONTACT US</a>
+            <br><br><br>
+        </div>
+        <div class="content">
+            <h2 style="text-align: center;"><u>HAVE A PET TO GIVE AWAY</u></h2>
+            <p style="font-family:Arial, Helvetica, sans-serif"> To make sure we know what animal you're giving
+                away,
+                we would like you to answer this simple form:
+            </p>
+            <fieldset>
+                <legend style="font-weight: bold;">Information about the pet you're giving away</legend>
+                <form style="font-family:Arial, Helvetica, sans-serif">
+                    <label>Is the animal you're giving away a dog or a
+                        cat?</label><br>
+                    <input type="radio" name="animal">
+                    <label>Cat</label>
+                    <input type="radio" name="animal">
+                    <label>Dog</label>
+                    <br><br>
+
+                    <label> What breed is your cat?</label><br>
+                    <input type="text" id="breedcattext">
+                    <input type="checkbox" id="breedcat">
+                    <label>Mixed</label>
+                    <br><br>
+
+                    <label> What breed is your dog?</label><br>
+                    <input type="text" id="breeddogtext">
+                    <input type="checkbox" id="breeddog">
+                    <label>Mixed</label>
+                    <br><br>
+
+                    <label>How old is your cat/dog?</label><br>
+                    <select>
+                        <option>Less than 10</option>
+                        <option>Older than 10</option>
+                        <option>Less than 5</option>
+                    </select>
+                    <br><br>
+
+                    <label>What is the gender of your dog/cat?</label><br>
+                    <input type="radio" name="gender">
+                    <label>Female</label>
+                    <input type="radio" name="gender">
+                    <label>Male</label>
+                    <br><br>
+
+                    <label>Does it get along with other dogs?</label><br>
+                    <input type="radio" name="dog">
+                    <label>yes</label>
+                    <input type="radio" name="dog">
+                    <label>no</label>
+                    <br><br>
+
+                    <label>Does it get along with other cats?</label><br>
+                    <input type="radio" name="cats">
+                    <label>yes</label>
+                    <input type="radio" name="cats">
+                    <label>no</label>
+                    <br><br>
+
+                    <label>Is it suitable for a family with small children?</label><br>
+                    <input type="radio" name="family">
+                    <label>yes</label>
+                    <input type="radio" name="family">
+                    <label>no</label>
+                    <br><br>
+
+                    <p>If you have anything more to mention about your animal, please mention it in the comment area
+                    </p>
+                    <textarea rows="6">
+                            Enter your comments here
+                        </textarea>
+                    <br><br>
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend style="font-weight: bold;">Owner's information</legend>
+                <form style="font-family:Arial, Helvetica, sans-serif">
+                    <label>Please enter your given name</label><br>
+                    <input type="text" id="givenname">
+                    <br><br>
+
+                    <label>Please enter your family name</label><br>
+                    <input type="text" id="familyname">
+                    <br><br>
+
+                    <label>Please enter your email so we can reach you</label><br>
+                    <input type="text" id="email">
+                    <br><br>
+                </form>
+            </fieldset>
+            <form>
+                <p>Thank you for taking the time to complete this form.</p>
+                <button type="button" onclick="validate()">Submit</button>
+                <button>Clear</button>
+                <p id="formvalidate"></p>
+            </form>
+            <br><br>
+
+        </div>
+    </div>
+
+    <div id="footer">
+        <br>
+        <p style="font-size:25px;">@MiawMatch Pet adoption service</p>
+        <a href="privacy.html" id="footerlink">Privacy/Disclaimer Statement</a>
+    </div>
+</body>
+
+</html>
